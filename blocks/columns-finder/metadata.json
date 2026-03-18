@@ -1,0 +1,31 @@
+{
+  "variantName": "columns-finder",
+  "baseBlock": "columns",
+  "version": "1.0.0",
+  "created": "2026-03-18T16:40:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://publish-p45403-e1547974.adobeaemcloud.com/us/en.html",
+    "originPage": "Frescopa homepage",
+    "blockPosition": "middle"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "compact",
+    "purpose": "location-finder",
+    "imagePattern": "noimg"
+  },
+  "contentPattern": {
+    "structure": "heading + label + search input + map placeholder",
+    "buttonCount": 1,
+    "imageCount": 0
+  },
+  "reuseGuidance": {
+    "suitableFor": ["location finder sections", "search-with-results layouts", "two-panel interactive sections"],
+    "notSuitableFor": ["image-heavy layouts", "product showcases"]
+  },
+  "usage": {
+    "pagesUsing": ["/us/en"],
+    "reuseCount": 1,
+    "lastUsed": "2026-03-18T16:40:00.000Z"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "status": "success",
+  "url": "https://publish-p45403-e1547974.adobeaemcloud.com/us/en.html",
+  "path": "us/en",
+  "timestamp": "2026-03-18T16:55:44.783Z",
+  "title": "Frescopa Home",
+  "template": "homepage",
+  "blocks": [
+    "hero-quiz",
+    "columns-banner",
+    "columns-finder",
+    "cards-product",
+    "hero-offer"
+  ]
+}

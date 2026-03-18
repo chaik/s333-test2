@@ -1,0 +1,31 @@
+{
+  "variantName": "hero-offer",
+  "baseBlock": "hero",
+  "version": "1.0.0",
+  "created": "2026-03-18T16:40:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://publish-p45403-e1547974.adobeaemcloud.com/us/en.html",
+    "originPage": "Frescopa homepage",
+    "blockPosition": "bottom"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "spacious",
+    "purpose": "promo-offer",
+    "imagePattern": "large"
+  },
+  "contentPattern": {
+    "structure": "pretitle + detail + heading + CTA",
+    "buttonCount": 1,
+    "imageCount": 1
+  },
+  "reuseGuidance": {
+    "suitableFor": ["promotional banners", "offer/coupon sections", "full-width background image CTAs"],
+    "notSuitableFor": ["text-only sections", "light-themed heroes"]
+  },
+  "usage": {
+    "pagesUsing": ["/us/en"],
+    "reuseCount": 1,
+    "lastUsed": "2026-03-18T16:40:00.000Z"
+  }
+}

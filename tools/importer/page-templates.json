@@ -1,0 +1,95 @@
+{
+  "templates": [
+    {
+      "name": "homepage",
+      "urls": [
+        "https://publish-p45403-e1547974.adobeaemcloud.com/us/en.html"
+      ],
+      "description": "Homepage template for the site landing page",
+      "blocks": [
+        {
+          "name": "hero-quiz",
+          "instances": [
+            "div.teaser:has(#teaser-9faac08052)"
+          ]
+        },
+        {
+          "name": "columns-banner",
+          "instances": [
+            "div.frescopa-banner"
+          ]
+        },
+        {
+          "name": "columns-finder",
+          "instances": [
+            "div.location-finder"
+          ]
+        },
+        {
+          "name": "cards-product",
+          "instances": [
+            "div.container.responsivegrid.flexcolummns"
+          ]
+        },
+        {
+          "name": "hero-offer",
+          "instances": [
+            "div.contentfragment.cfoffer"
+          ]
+        }
+      ],
+      "sections": [
+        {
+          "id": "section-1",
+          "name": "Hero / Coffee Quiz Teaser",
+          "selector": "div.teaser:has(#teaser-9faac08052)",
+          "style": null,
+          "blocks": [
+            "hero-quiz"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "section-2",
+          "name": "Subscription Banner",
+          "selector": "div.frescopa-banner",
+          "style": null,
+          "blocks": [
+            "columns-banner"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "section-3",
+          "name": "Location Finder",
+          "selector": "div.location-finder",
+          "style": null,
+          "blocks": [
+            "columns-finder"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "section-4",
+          "name": "Product Cards",
+          "selector": "div.container.responsivegrid.flexcolummns",
+          "style": null,
+          "blocks": [
+            "cards-product"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "section-5",
+          "name": "Offer / Promo Banner",
+          "selector": "div.contentfragment.cfoffer",
+          "style": null,
+          "blocks": [
+            "hero-offer"
+          ],
+          "defaultContent": []
+        }
+      ]
+    }
+  ]
+}

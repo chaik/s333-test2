@@ -1,0 +1,92 @@
+/* Cards Product - Product card grid */
+.cards-product > ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 24px;
+}
+
+.cards-product > ul > li {
+  background-color: var(--background-color);
+  overflow: hidden;
+}
+
+.cards-product .cards-product-card-image {
+  line-height: 0;
+}
+
+.cards-product > ul > li img {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+}
+
+.cards-product .cards-product-card-body {
+  padding: 16px 0;
+}
+
+.cards-product .cards-product-card-body h3 {
+  font-family: var(--heading-font-family);
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 1.125;
+  margin-top: 0;
+}
+
+.cards-product .cards-product-card-body h3 a {
+  color: var(--color-maroon);
+  text-decoration: none;
+}
+
+.cards-product .cards-product-card-body h3 a:hover {
+  text-decoration: underline;
+}
+
+.cards-product .cards-product-card-body p {
+  font-size: 16px;
+  line-height: 1.75;
+  color: var(--text-color);
+}
+
+.cards-product .cards-product-card-body .button-wrapper .button {
+  font-size: 16px;
+  font-weight: 600;
+  padding: 9px 16px 11px;
+  border-radius: 25px;
+}
+
+/* stylelint-disable no-descending-specificity */
+
+/* First card CTA - coral */
+.cards-product > ul > li:first-child .button-wrapper .button {
+  background-color: var(--color-coral);
+  border-color: var(--color-coral);
+  color: #fff;
+}
+
+.cards-product > ul > li:first-child .button-wrapper .button:hover {
+  background-color: var(--color-terracotta);
+  border-color: var(--color-terracotta);
+}
+
+/* Second card CTA - teal */
+.cards-product > ul > li:nth-child(2) .button-wrapper .button {
+  background-color: var(--color-teal);
+  border-color: var(--color-teal);
+  color: #fff;
+}
+
+.cards-product > ul > li:nth-child(2) .button-wrapper .button:hover {
+  background-color: #1e5066;
+  border-color: #1e5066;
+}
+
+/* stylelint-enable no-descending-specificity */
+
+@media (width >= 600px) {
+  .cards-product > ul {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

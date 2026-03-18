@@ -1,0 +1,105 @@
+/* Hero Offer - Full-width hero with background image and offer content */
+.hero-offer-container .hero-offer-wrapper {
+  max-width: unset;
+  padding: 0;
+}
+
+.hero-offer {
+  position: relative;
+  padding: 60px 24px;
+  min-height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.hero-offer > div:first-child {
+  position: absolute;
+  z-index: -1;
+  inset: 0;
+}
+
+.hero-offer picture {
+  position: absolute;
+  inset: 0;
+}
+
+.hero-offer img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.hero-offer > div:last-child {
+  position: relative;
+  z-index: 1;
+  max-width: 600px;
+}
+
+.hero-offer h1,
+.hero-offer h2,
+.hero-offer h3,
+.hero-offer h4,
+.hero-offer h5,
+.hero-offer h6 {
+  color: #fff;
+  font-family: var(--heading-font-family);
+  font-weight: 400;
+}
+
+.hero-offer h2 {
+  font-size: 36px;
+  line-height: 1.2;
+  color: #fff;
+  background-color: var(--color-offer-teal);
+  display: inline;
+  padding: 4px 8px;
+  box-decoration-break: clone;
+}
+
+.hero-offer p {
+  color: #fff;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+/* Pretitle - "Light Roast Lovers:" */
+.hero-offer > div:last-child > p:first-child {
+  font-size: 12px;
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 0.3px;
+}
+
+/* Subtitle - "Meet Morning Muse" */
+.hero-offer > div:last-child > p:nth-child(2) {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+/* CTA button */
+.hero-offer .button-wrapper .button {
+  background-color: var(--color-teal);
+  border-color: var(--color-teal);
+  color: #fff;
+  font-size: 15px;
+  font-weight: 600;
+  padding: 8px 15px 10px;
+  border-radius: 24px;
+}
+
+.hero-offer .button-wrapper .button:hover {
+  background-color: #1e5066;
+  border-color: #1e5066;
+}
+
+@media (width >= 900px) {
+  .hero-offer {
+    padding: 80px 32px;
+    min-height: 500px;
+  }
+
+  .hero-offer h2 {
+    font-size: 42px;
+  }
+}

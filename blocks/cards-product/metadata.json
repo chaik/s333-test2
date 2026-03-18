@@ -1,0 +1,31 @@
+{
+  "variantName": "cards-product",
+  "baseBlock": "cards",
+  "version": "1.0.0",
+  "created": "2026-03-18T16:40:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://publish-p45403-e1547974.adobeaemcloud.com/us/en.html",
+    "originPage": "Frescopa homepage",
+    "blockPosition": "middle"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "spacious",
+    "purpose": "product-cards",
+    "imagePattern": "large"
+  },
+  "contentPattern": {
+    "structure": "image + heading + description + CTA",
+    "buttonCount": 1,
+    "imageCount": 1
+  },
+  "reuseGuidance": {
+    "suitableFor": ["product listing cards", "article preview cards", "feature cards with images and CTAs"],
+    "notSuitableFor": ["text-only cards", "icon-based cards"]
+  },
+  "usage": {
+    "pagesUsing": ["/us/en"],
+    "reuseCount": 1,
+    "lastUsed": "2026-03-18T16:40:00.000Z"
+  }
+}

@@ -1,0 +1,83 @@
+/* Columns Banner - Image + text side-by-side on warm beige background */
+.columns-banner-container .columns-banner-wrapper {
+  max-width: unset;
+  padding: 0;
+}
+
+.columns-banner {
+  background-color: var(--color-beige-light);
+}
+
+.columns-banner > div {
+  display: flex;
+  flex-direction: column;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.columns-banner img {
+  width: 100%;
+  display: block;
+  object-fit: contain;
+}
+
+.columns-banner > div > div {
+  order: 1;
+  padding: 24px;
+}
+
+.columns-banner > div > .columns-banner-img-col {
+  order: 0;
+}
+
+.columns-banner > div > .columns-banner-img-col img {
+  display: block;
+}
+
+.columns-banner h2 {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 1.3;
+  color: var(--color-brown-dark);
+  margin-top: 0;
+}
+
+.columns-banner p {
+  color: var(--color-brown-dark);
+  font-size: 16px;
+  line-height: 1.75;
+}
+
+.columns-banner .button-wrapper .button {
+  background-color: var(--color-terracotta);
+  border-color: var(--color-terracotta);
+  color: #fff;
+  font-size: 13px;
+  font-weight: 600;
+  padding: 8px 24px;
+  border-radius: 100px;
+}
+
+.columns-banner .button-wrapper .button:hover {
+  background-color: #a3432a;
+  border-color: #a3432a;
+}
+
+@media (width >= 900px) {
+  .columns-banner > div {
+    align-items: center;
+    flex-direction: row;
+    gap: 32px;
+  }
+
+  .columns-banner > div > div {
+    flex: 1;
+    order: unset;
+    padding: 40px 32px;
+  }
+
+  .columns-banner > div > .columns-banner-img-col {
+    flex: 0 0 40%;
+  }
+}
