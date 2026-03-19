@@ -4,6 +4,7 @@ header .nav-wrapper {
   width: 100%;
   z-index: 2;
   position: fixed;
+  border-bottom: 1px solid var(--color-beige);
 }
 
 header nav {
@@ -55,7 +56,12 @@ header nav p {
 }
 
 header nav a:any-link {
-  color: currentcolor;
+  color: var(--color-maroon);
+}
+
+header nav a:any-link:hover {
+  color: var(--color-coral);
+  text-decoration: none;
 }
 
 /* hamburger */
@@ -170,7 +176,8 @@ header nav[aria-expanded='true'] .nav-sections {
 header nav .nav-sections ul {
   list-style: none;
   padding-left: 0;
-  font-size: var(--body-font-size-s);
+  font-size: 15px;
+  font-family: var(--body-font-family);
 }
 
 header nav .nav-sections ul > li {
@@ -269,4 +276,9 @@ header nav .nav-sections ul > li > ul > li {
 /* tools */
 header nav .nav-tools {
   grid-area: tools;
+}
+
+header nav .nav-tools a:any-link {
+  font-weight: 600;
+  color: var(--color-maroon);
 }
